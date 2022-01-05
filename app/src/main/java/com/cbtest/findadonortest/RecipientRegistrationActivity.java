@@ -117,7 +117,7 @@ public class RecipientRegistrationActivity extends AppCompatActivity {
                 final String nidNumber = registerNIDNumber.getText().toString().trim();
                 final String phoneNumber = registerPhoneNumber.getText().toString().trim();
                 final String bloodGroup = bloodGroupsSpinner.getSelectedItem().toString();
-                final String region = "Sylhet";
+                final String region = regionSpinner.getSelectedItem().toString();
 
                 if(TextUtils.isEmpty(email)){
                     registerEmail.setError("Email is Required");
