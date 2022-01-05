@@ -16,5 +16,7 @@
         <item>O+</item>
         <item>O-</item>
     </string-array>
+    <string name="title_activity_maps_share">MapsShareActivity</string>
+    <string name="title_activity_maps_view">MapsViewActivity</string>
 
 </resources>

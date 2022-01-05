@@ -6,6 +6,10 @@
         android:icon="@drawable/ic_home"
         android:title="Home"/>
     <item
+        android:id="@+id/donationStatus"
+        android:icon="@drawable/ic_update_status"
+        android:title="Update Status"/>
+    <item
         android:id="@+id/sentRequest"
         android:icon="@drawable/ic_sent_rqst"
         android:title="Sent Request"/>
@@ -13,6 +17,19 @@
         android:id="@+id/receivedRequest"
         android:icon="@drawable/ic_rcv_rqst"
         android:title="Received Request"/>
+    <item
+        android:id="@+id/savedUser"
+        android:icon="@drawable/ic_saved_user"
+        android:title="Saved User"/>
+
+    <item
+        android:id="@+id/shareLocation"
+        android:icon="@drawable/ic_location"
+        android:title="Share Location"/>
+    <item
+        android:id="@+id/viewReceipient"
+        android:icon="@drawable/ic_rcpnt"
+        android:title="Receipients"/>
 
     <item android:title="Blood Groups">
         <menu>
@@ -61,6 +78,29 @@
             </group>
         </menu>
     </item>
+
+    <item android:title="Search">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/donorsOther"
+                    android:icon="@drawable/ic_donorsearch"
+                    android:title="Donors"/>
+
+                <item
+                    android:id="@+id/rcpntOther"
+                    android:icon="@drawable/ic_rcpntsearch"
+                    android:title="Receipients"/>
+
+                <item
+                    android:id="@+id/searchPhone"
+                    android:icon="@drawable/ic_searchphone"
+                    android:title="Search By Phone"/>
+
+            </group>
+        </menu>
+    </item>
+
 
 
     <item android:title="Actions">
